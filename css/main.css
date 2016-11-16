@@ -1,0 +1,61 @@
+/*
+FILE:         main.css
+PROGRAMMER:   Eric Lachapelle (040756723)
+ASSIGNMENT:   Resposive Images (MAD9013)
+*/
+
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;   
+}
+
+picture, img{
+    max-width: 90%;
+}
+
+/* ONE COLUMN LAYOUT */
+@media screen and (max-width:600px){
+    
+    html{
+        text-align: center;
+    }
+    li{
+        width: 90%;
+        margin-top: 4%;
+    }
+
+}
+
+/* TWO COLUMN LAYOUT */
+@media screen and (min-width:600px) and (max-width:1200px){
+        
+    li{
+        width: 49%;
+        margin-bottom: 4.7%;
+    }
+    ul{
+        margin-left: 4.7%;
+        margin-top: 4.7%;
+    }
+}
+
+/* FOUR COLUMN LAYOUT */
+@media screen and (min-width:1200px){
+    
+    li{
+        width: 24%;
+        margin-bottom: 2.3%;
+    }
+    ul{
+        margin-left: 2.3%;
+        margin-top: 2.3%;
+    }
+}

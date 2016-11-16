@@ -1,0 +1,82 @@
+<!--
+FILE:         index.html
+PROGRAMMER:   Eric Lachapelle (040756723)
+ASSIGNMENT:   Resposive Images (MAD9013)
+
+All images used belong to:
+
+    Markus Spiske - https://500px.com/markusspiske
+
+    Yinan Chen - https://500px.com/webmaster85
+
+    Fahim Akhter - https://500px.com/fahimakhter
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <ul>
+        <li>
+            <picture>
+                <source srcset="img/1-large.png" media="(min-width: 1500px)" />
+                <source srcset="img/1-medium.png" media="(min-width: 700px) and (max-width: 1500px)" />
+                <source srcset="img/1-small.png" media="(max-width: 700px)" /> 
+                <img src="img/1-medium.png" alt="Pakistan Image" /> 
+            </picture>
+        </li>
+        <li>
+            <picture>
+                <source srcset="img/2-large.png" media="(min-width: 1500px)" />
+                <source srcset="img/2-medium.png" media="(min-width: 700px) and (max-width: 1500px)" />
+                <source srcset="img/2-small.png" media="(max-width: 700px)" /> 
+                <img src="img/2-medium.png" alt="Carrots Image" /> 
+            </picture>
+        </li>
+        <li>
+            <picture>
+                <source srcset="img/3-large.png" media="(min-width: 1500px)" />
+                <source srcset="img/3-medium.png" media="(min-width: 700px) and (max-width: 1500px)" />
+                <source srcset="img/3-small.png" media="(max-width: 700px)" /> 
+                <img src="img/3-medium.png" alt="Croud Image" /> 
+            </picture>
+        </li>
+        <li>
+            <picture>
+                <source srcset="img/4-large.png" media="(min-width: 1500px)" />
+                <source srcset="img/4-medium.png" media="(min-width: 700px) and (max-width: 1500px)" />
+                <source srcset="img/4-small.png" media="(max-width: 700px)" /> 
+                <img src="img/4-medium.png" alt="Guitar Image" /> 
+            </picture>
+        </li>
+        <li>
+            <picture>
+                <source srcset="img/5-large.png" media="(min-width: 1500px)" />
+                <source srcset="img/5-medium.png" media="(min-width: 700px) and (max-width: 1500px)" />
+                <source srcset="img/5-small.png" media="(max-width: 700px)" /> 
+                <img src="img/5-medium.png" alt="Stage Image" /> 
+            </picture>
+        </li>
+        <li>
+            <picture>
+                <source srcset="img/6-large.png" media="(min-width: 1500px)" />
+                <source srcset="img/6-medium.png" media="(min-width: 700px) and (max-width: 1500px)" />
+                <source srcset="img/6-small.png" media="(max-width: 700px)" /> 
+                <img src="img/6-medium.png" alt="Sunset Image" /> 
+            </picture>
+        </li>
+        <li>
+            <picture>
+                <source srcset="img/7-large.png" media="(min-width: 1500px)" />
+                <source srcset="img/7-medium.png" media="(min-width: 700px) and (max-width: 1500px)" />
+                <source srcset="img/7-small.png" media="(max-width: 700px)" /> 
+                <img src="img/7-medium.png" alt="Cliff Image" /> 
+            </picture>
+        </li>
+    </ul>
+</body>
+</html>
